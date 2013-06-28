@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cos-html-cachePOT-Creation-Date:\n"
+"PO-Revision-Date: 2009-06-21 00:11+0800\n"
+"Last-Translator: jiang dong <china.cos@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: China\n"
+"POT-Creation-Date: \n"
+"Language-Team: \n"
+
+#: sitemap.php:375
+msgid "vote"
+msgstr "支持"
+
+msgid "against"
+msgstr "反对"
+
+msgid "Thank you"
+msgstr "谢谢参与"
+
+msgid "You've voted"
+msgstr "您已经投过票了"
+
+msgid "Loading..."
+msgstr "正在处理..."
+
+msgid "posted at"
+msgstr "发表于"
+
+msgid "Hot Comments"
+msgstr "热门评论"
+
+msgid "No Hot Comment"
+msgstr "当前无热门评论"
+

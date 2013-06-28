@@ -1,0 +1,17 @@
+.hotcomment{
+width:100%;
+}
+.hotcomment .in{
+}
+.hotcomment .bar{
+padding:10px ;
+font-weight:bold;
+}
+.acv_author{
+color:#009966;border-top:1px solid #eee;background:#efe;padding:4px 0;
+}
+.vote{text-align:right;width:100%;}
+.votehot {text-align:right;}
+.acv_comment{margin:5px 0;padding:2px;background:#fff}
+.acv4:link,.acv4:visited{color:green}
+.acva:link,.acv4:visited{color:red}
