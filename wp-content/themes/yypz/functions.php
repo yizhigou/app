@@ -53,11 +53,12 @@ function insert_custom_css() {
         rewind_posts();
     }
 }
-function text2img($content) {
+function display_comment_images($content) {
 	$content = preg_replace("/(jpg|png|gif|jpeg)/is", "$1 ", $content);
 	$content = preg_replace("/http([^ ]*)\.(jpg|png|gif|jpeg)/is", '<a href="http$1.$2" target="_blank"><img src="http$1.$2" /></a>', $content);
 	return $content;
 }
+
 function kubrick_head() {
 	$head = "<style type='text/css'>\n<!--";
 	$output = '';
