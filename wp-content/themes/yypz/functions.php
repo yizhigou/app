@@ -54,8 +54,7 @@ function insert_custom_css() {
     }
 }
 function display_comment_images($content) {
-	$content = preg_replace("/(jpg|png|gif|jpeg)/is", "$1 ", $content);
-	$content = preg_replace("/http([^ ]*)\.(jpg|png|gif|jpeg)/is", '<a href="http$1.$2" target="_blank"><img src="http$1.$2" /></a>', $content);
+	$content = preg_replace("/(?<!\()http\S*.(jpg|png|gif|jpeg)(?!\))/i", '<a href="$0" ><img src="$0" /></a>', $content);
 	return $content;
 }
 
